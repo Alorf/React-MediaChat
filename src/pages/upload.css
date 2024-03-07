@@ -1,0 +1,13 @@
+#file-container {
+  position: relative;
+  background-size: cover;
+  width: 100%;
+}
+
+#preview {
+  position: absolute;
+}
+
+#file {
+  width: 100%;
+}
