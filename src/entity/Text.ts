@@ -5,6 +5,7 @@ export class Text {
   public fontFamily?: string;
   public fontColor?: string;
   public fontSize?: number;
+  public duration?: number;
 
   public position?: Position;
 
@@ -13,12 +14,14 @@ export class Text {
     fontFamily?: string,
     fontColor?: string,
     fontSize?: number,
+    duration?: number,
     position?: Position
   ) {
     this.textData = textData;
     this.fontFamily = fontFamily;
     this.fontColor = fontColor;
     this.fontSize = fontSize;
+    this.duration = duration;
     this.position = position;
   }
 }

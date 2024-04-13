@@ -109,7 +109,7 @@ export function ShowImage({
       //On image ended
       setTimeout(() => {
         onImageEnded(id);
-      }, 10000);
+      }, media.duration! * 1000);
     }
   }, [media]);
 
