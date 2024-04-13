@@ -138,7 +138,6 @@ export function ShowAuthor({
           fontSize: "2.5em",
           fontFamily:
             "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
-          zIndex: 99,
           textShadow: "4px 4px 2px rgba(0,0,0,0.6)",
         }}
       ></span>

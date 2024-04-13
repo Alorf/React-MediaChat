@@ -64,6 +64,7 @@ export function Upload() {
 
     var position = new Position(rect?.top, rect?.left, aspectRatio);
 
+    var duration;
     var video = undefined;
     var image = undefined;
     var text = undefined;
@@ -88,6 +89,7 @@ export function Upload() {
         rect?.width,
         rect?.height,
         false,
+        duration,
         position,
         isBase64
       );

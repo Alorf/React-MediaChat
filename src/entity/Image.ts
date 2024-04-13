@@ -5,6 +5,7 @@ export class Image {
   public width?: number | string;
   public height?: number | string;
   public fullscreen?: boolean;
+  public duration?: number;
 
   public position?: Position;
   public isBase64?: boolean;
@@ -14,6 +15,7 @@ export class Image {
     width?: number | string,
     height?: number | string,
     fullscreen?: boolean,
+    duration?: number,
     position?: Position,
     isBase64?: boolean
   ) {
@@ -21,6 +23,7 @@ export class Image {
     this.width = width;
     this.height = height;
     this.fullscreen = fullscreen;
+    this.duration = duration;
     this.position = position;
     this.isBase64 = isBase64;
   }

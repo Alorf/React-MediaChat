@@ -74,7 +74,7 @@ export function ShowText({
       if (onTextEnded != undefined) {
         setTimeout(() => {
           onTextEnded(id);
-        }, 10000);
+        }, media.duration * 1000);
       }
     }
   }, [media]);
