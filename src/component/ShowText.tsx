@@ -85,10 +85,14 @@ export function ShowText({
         ref={spanRef}
         style={{
           position: "absolute",
+          minWidth: "80%",
+          display: "flex",
+          justifyContent: "center",
           overflowWrap: "anywhere",
           zIndex: 99,
           textShadow: "4px 4px 2px rgba(0,0,0,0.6)",
           lineHeight: "100%",
+          paddingBottom: "15px",
         }}
       ></span>
     </>
